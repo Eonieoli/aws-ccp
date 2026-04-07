@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:d1.awsstatic.com)",
+      "WebFetch(domain:tutorialq.com)",
+      "WebFetch(domain:www.pluralsight.com)",
+      "Bash(curl -s \"https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf\" -o /tmp/clf-c02-exam-guide.pdf)",
+      "Bash(curl -s \"https://aws.amazon.com/certification/certified-cloud-practitioner/\")",
+      "WebFetch(domain:aws.amazon.com)",
+      "WebFetch(domain:www.examcert.app)",
+      "WebFetch(domain:notes.kodekloud.com)",
+      "Bash(pdftotext \"/c/Users/Remote/.claude/projects/C--Users-Remote-Desktop-kjh-aws-ccp/621f2426-2053-4923-abc4-0c6887a4973f/tool-results/webfetch-1775538317443-vu77az.pdf\" -)",
+      "Bash(pdftotext \"/c/Users/Remote/.claude/projects/C--Users-Remote-Desktop-kjh-aws-ccp/621f2426-2053-4923-abc4-0c6887a4973f/tool-results/webfetch-1775538317443-vu77az.pdf\" /tmp/clf-c02-full.txt)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
